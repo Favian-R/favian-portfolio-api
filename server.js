@@ -18,14 +18,14 @@ app.use(express.json());
 let profileData = {
     name: "Favian Rifqiziwani",
     title: "Desainer Grafis & Web Developer",
-    university: "Universitas Anda (Opsional)",
-    major: "Desain/Informatika (Opsional)",
+    university: "Universitas Negeri Jakarta",
+    major: "Pendidikan Teknik Informtika dan Komputer",
     about: {
         intro: "Seorang Desainer Grafis dan Web Developer yang berfokus pada tampilan modern, fungsional, dan mudah digunakan.",
         description: "Saya memiliki pengalaman dalam desain UI/UX, ilustrasi, serta branding visual untuk berbagai proyek kreatif. Saya selalu bersemangat untuk mengubah ide menjadi solusi visual dan digital yang efektif."
     },
     // Ganti "profile.jpg" dengan URL publik gambar profil Anda di Vercel/GitHub
-    image: "/profile.jpg", 
+    image: "https://favian-portfolio-web.vercel.app/profile.jpg", 
     cta: "AYO KENALAN!"
 };
 
@@ -50,21 +50,21 @@ let projectsData = [
         id: 1,
         title: "Desain Poster",
         description: "Desain Poster untuk mengenang korban demo 28 Agustus 2025.",
-        imageUrl: "/projek1.png", // Ganti dengan URL publik gambar Anda
+        imageUrl: "https://favian-portfolio-web.vercel.app/images/projek1.png", // Ganti dengan URL publik gambar Anda
         technologies: ["Poster", "Instagram", "Canva"]
     },
     {
         id: 2,
         title: "Desain Logo Naga Gendut",
         description: "Desain logo untuk cafe boardgame Naga Gendut.",
-        imageUrl: "/projek2.png", // Ganti dengan URL publik gambar Anda
+        imageUrl: "https://favian-portfolio-web.vercel.app/images/projek2.png", // Ganti dengan URL publik gambar Anda
         technologies: ["Logo", "Illustrator", "Photoshop"]
     },
     {
         id: 3,
         title: "Desain UI/UX Aplikasi Belajar",
         description: "Desain UI untuk aplikasi belajar Studymate.",
-        imageUrl: "/projek3.png", // Ganti dengan URL publik gambar Anda
+        imageUrl: "https://favian-portfolio-web.vercel.app/images/projek3.png", // Ganti dengan URL publik gambar Anda
         technologies: ["Logo", "UI/UX", "Figma"]
     }
 ];
@@ -72,10 +72,6 @@ let projectsData = [
 // Data kontak
 let contactData = {
     email: "favrifqiziwani@gmail.com",
-    // Isi dengan link media sosial Anda
-    instagram: "https://instagram.com/akun_anda", 
-    youtube: "https://youtube.com/channel_anda", 
-    linkedin: "https://www.linkedin.com/in/akun_anda"
 };
 
 // ===============================================
